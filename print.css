@@ -1,0 +1,109 @@
+body{
+    background-color:white;
+    color:black ;
+    font-family:sans-serif;
+    font-size: medium;
+}
+h1{
+    color:black;
+}
+h2{
+    color:black;
+}
+h3{
+    color:black;
+}
+blockquote{
+    color:black;
+}
+
+.imgright{
+    float: right;
+}
+.imgTop{
+    float:inline-start;
+}
+.sched{
+    margin: auto;
+    width: 100%;
+    padding: 1px;
+    border-spacing: 1px;
+    border-collapse: separate;
+}
+
+caption{
+    color:black;
+    font-size: larger;
+}
+td{
+    
+    color:black;
+}
+th{
+    
+    background-color: #D370A8;
+    color:#000;
+}
+
+#container{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #840000;
+    color:black;
+}
+header{
+    display: none;
+}
+.navigation{
+    display: none;
+}
+
+section{
+    width: 100%;
+    background-image: url(Images/backimage.jpg);
+    background-repeat: repeat-y;
+}
+article{
+    width: 95%;
+    text-align: left;
+    margin: 5px;
+}
+
+#thumbs, #image {
+    width: 700px;
+    border: solid 1px 000;
+    text-align: center;
+    margin:0 auto 0 auto;
+    color: #000;
+    background: #eee;
+    padding: 5px;
+}
+
+#thumbs{
+    margin-top: 10px
+}
+
+#thumbs{
+    border: solid 1p #000;
+    margin: 5px;
+}
+.picture{
+    display: none;
+}
+
+#image{
+    height: 100px;
+}
+
+.instructions{
+    font-style:italic
+}
+footer{
+    display: none;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Native Cooking</title>
+<link  rel="stylesheet" href="mystyles.css">
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+<script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body onload="preloadImages()">
+    <div id="container">
+        <header>
+            <nav>
+            <a href=""
+                onmouseover="document.getElementById('logo').src='images/Logo2.jpg';"
+                onmouseover="document.getElementById('logo').src='images/Logo2.jpg';"></a>
+            <img src="Images/Logo2.jpg" alt="Logo" height="90">
+            <img src="Images/NativeCookingBannerrr.png" alt="banner" width="300">
+            
+                <ul class="navigation">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="Tributes.html">Tributes</a></li>
+                    <li><a href="Survey.html">Survey</a></li>
+                    <li><a href="Links.html">Favorites</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <!--This is where the background takes place-->
+            <article>
+                <h1>Welcome to Native Cooking of Utah!</h1>
+                <p>
+                    If you love to cook like we do, you should enjoy looking around this site.
+                    Take a look at our Recipes and take the opportunity to complete our
+                    survey.
+                      
+                </p>
+                <!--image swap-->
+                <div class="imgswap">
+                    <p class="instructions">
+
+                        <div id ="thumbs">
+                            <img src="Images/Thumbnails/Image1Sm.jpg" alt="Steak Grilled" onmouseover="swapImage(0);"/>
+                            <img src="Images/Thumbnails/Image2Sm.jpg" alt="Cherry Cheesecake" onmouseover="swapImage(1);"/>
+                            <img src="Images/Thumbnails/Image3Sml.jpg" alt="Picnic" onmouseover="swapImage(2)"/>
+                            <img src="Images/Thumbnails/Image4Sm.jpg" alt="Chef" onmouseover="swapImage(3)"/>
+                        
+                                <br/>
+                                
+                        </div>
+                        <div id="image">
+                        
+                            <img id="theImage" src="Images/Fullsize/Image1Lg.jpg" alt="Steak Grilled" />
+                            <h3 id="bottomText">Steak Grilled</h3>
+                        </div>
+                        
+                </div>
+                <!--mini tribut-->
+               <div class="Tributes-snippit">
+                <h3>Tributes-snippit</h3>
+                <p>I like how these recipes are inexpensive to prepare, and they serve lots of people.  The clean up usually is painless as well. 
+                </p>
+                    <p><a href="Tributes.html">More>></a></p>
+               </div>
+
+            </article>
+            
+         
+        
+        </section>
+        <footer id="email">
+            <p><a href="email:this@email.com">Email The Owners</a></p>
+            <p>This web site has been created solely for educational purposes</p>
+            <a onclick="window.print();returnfalse;">
+                <img src="images/PrintButton.jpg" alt="print">
+            </a>
+        </footer>
+       
+
+
+
+</body>
+</html>

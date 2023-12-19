@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Native Cooking: About Us</title>
+<title>Survey</title>
 <link  rel="stylesheet" href="mystyles.css">
 <link href="print.css" rel="stylesheet" type="text/css" media="print">
 <script type="text/javascript" src="myscripts.js"></script>
@@ -31,6 +31,164 @@
                     </ul>
                 </nav>
             </header>
+        <section>
+            <h1>Add a recipe to our site!</h1>
+
+            <p>We'd love to add more to our collection! Tell us about what you've got so we can consider publishing it!</p>
+            
+            <form action="pizza.php" method="post" name="OrderPizza" target="_blank">
+            <fieldset>
+              <legend>Your Information</legend>
+            
+            <ul>
+              <li>
+                <label for="name">Name:</label>
+                <input id="name" name="name" class="text" type="text">
+              </li>
+              <li>
+                <label for="address">Address:</label>
+                <input id="address" name="address" class="text" type="text">
+              </li>
+              <li>
+                <label for="telephone">Telephone Number:</label>
+                <input id="telephone" name="telephone" class="text" type="text">
+              </li>
+              <li>
+                <label for="email">Email:</label>
+                <input id="email" name="email" class="text" type="text">
+              </li>
+            </ul>
+            
+            </fieldset>
+            
+            <h2></h2>
+            
+            <fieldset>
+            <legend>What kind of dish?</legend>
+            <fieldset>
+              <legend><span id="perens">(Choose one)</span></legend>
+            <ul>
+              <li>
+                <label for="side">Side</label>
+                <input type="radio" input id="side" name="side" class="text" type="text">
+              </li>
+              <li>
+                <label for="main">Main</label>
+                <input type="radio" input id="main" name="main" class="text" type="text">
+              </li>
+              <li>
+                <label for="appetizer">Appetizer</label>
+                <input type="radio" input id="appetizer" name="appetizer" class="text" type="text">
+              </li>
+              <li>
+                <label for="dessert">Dessert</label>
+                <input type="radio" input id="dessert" name="dessert" class="text" type="text">
+              </li>
+              <li>
+                <label for="snack">Snack</label>
+                <input type="radio" input id="snack" name="snack" class="text" type="text">
+              </li>
+            </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Health Benifits<span id="perens">(Choose as many as you want)</span></legend>
+            <ul>
+              <li>
+                <label for="gluten">Gluten-free</label>
+                <input type="checkbox" input id="gluten" name="gluten" class="text" type="text">
+              </li>
+              <li>
+                <label for="vegan">Vegan</label>
+                <input type="checkbox" input id="vegan" name="vegan" class="text" type="text">
+              </li>
+              <li>
+                <label for="lactose">Lactose-Free</label>
+                <input type="checkbox" input id="lactose" name="lactose" class="text" type="text">
+              </li>
+              <li>
+                <label for="vegitarian">Vegitarian</label>
+                <input type="checkbox" input id="vegitarian" name="vegitarian" class="text" type="text">
+              </li>
+              <li>
+                <label for="fat">Fat-Free</label>
+                <input type="checkbox" input id="fat" name="fat" class="text" type="text">
+              </li>
+              <li>
+                <label for="sugar">Sugar-Free</label>
+                <input type="checkbox" input id="sugar" name="sugar" class="text" type="text">
+              </li>
+            </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Description</legend>
+                <p>Give us the details of your dish! What's the backstory? What makes it special to you?</p>
+                <div id="description">
+                    <label for="delivery"></label>
+                    <textarea id="deliver" name="delivery" class="text" placeholder="Tell us about your dish!"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Ingredients and Materials</legend>
+                <p>What is needed to prepare plate? How much resources are needed?</p>
+                <div id="plate">
+                    <label for="plate"></label>
+                    <textarea id="plate" name="plate" class="text" placeholder="Ingredients/Materials"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Time</legend>
+                <p>
+                    <label for="many">How much time does it take to prep and make your dish?</label>
+                    
+                    <select name="many" id="many">
+                      <option value="1">5 minutes</option>
+                      <option value="2">10 minutes</option>
+                      <option value="3">15 minutes</option>
+                      <option value="4">30 minutes</option>
+                      <option value="5">45 minutes</option>
+                      <option value="6">1 hour</option>
+                      <option value="7">90 minutes</option>
+                      <option value="8">2 hours</option>
+                      <option value="9">3 hours</option>
+                      <option value="10+">4+ hours</option>
+                    </select>
+                    <p>
+            </fieldset>
+            <fieldset>
+                <legend>Recipe</legend>
+                <p>Now create a recipe based of the Ingrdients, Materials, and Time it takes to make and plan your meal?</p>
+                <div id="recipe">
+                    <label for="recipe"></label>
+                    <textarea id="recipe" name="recipe" class="text" placeholder="Ingredients/Materials"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+              <legend>Serving Size:</legend>
+            <p>
+              <label for="many">How many people can it serve?</label>
+              
+              <select name="many" id="many">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10+">10+</option>
+              </select>
+              <p>
+                <label for="calories">Calories per Serving</label>
+                <input id="calories" name="calories" class="text" type="text">
+                
+            </fieldset>  
+            </fieldset>
+            <input name="subButton" type="submit" value="Submit!">
+            <input name="resetButton" type="Reset">
+            </form>
+        </section>
         <article>
        </article>
        

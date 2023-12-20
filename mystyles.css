@@ -166,5 +166,16 @@ article{
 #map{
     align-items: center;
 }
-
+#description{
+    height: 100px;
+    width: 700px;
+}
+#plate{
+    height: 100px;
+    width: 700px;
+}
+#recipe{
+    height: 100px;
+    width: 700px;
+}
 
